@@ -3,6 +3,7 @@ import { Header } from './components/Header'
 import { MainVisual } from './components/MainVisual'
 import { ProfileSection } from './components/ProfileSection'
 import { ArticlesSection } from './components/ArticlesSection'
+import { Footer } from './components/Footer'
 
 import { headerMenu } from './data/header/headerMenu'
 import { headerLogo } from './data/header/headerLogo'
@@ -21,6 +22,7 @@ export const App: React.FC = () => {
         <MainVisual mainImage={mainImage}/>
         <ProfileSection title={textData.sections.profile.title} profile={profile}/>
         <ArticlesSection title={textData.sections.article.title} articles={articles} />
+        <Footer copyright={textData.footer.copyright} />
       </main>
     </div>
   )
