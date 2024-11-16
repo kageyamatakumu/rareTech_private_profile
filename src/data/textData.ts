@@ -1,7 +1,7 @@
-import { TextData } from "../types/TextData";
+import { TextDataType } from "../types/TextDataType";
 
 // 静的文言データ
-export const textData: TextData = {
+export const textData: TextDataType = {
   title: {
     name: "自己紹介"
   },

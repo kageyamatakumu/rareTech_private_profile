@@ -1,7 +1,7 @@
-import { HeaderLogo } from "../../types/header/HeaderLogo";
+import { HeaderLogoType } from "../../types/header/HeaderLogoType";
 
 /** ヘッダーのロゴ */
-export const headerLogo: HeaderLogo = {
+export const headerLogo: HeaderLogoType = {
   name: 'logo.png',
   alt: 'ロゴ'
 }

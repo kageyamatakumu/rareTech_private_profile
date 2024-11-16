@@ -1,7 +1,7 @@
-import { Profile } from "../types/Profile";
+import { ProfileType } from "../types/Profile/ProfileType";
 
 /** 自己紹介データ */
-export const profile: Profile = {
+export const profile: ProfileType = {
   image: "profile.png",
   alt: "プロフィール画像",
   name: "TARO RARETECH",

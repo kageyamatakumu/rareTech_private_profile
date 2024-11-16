@@ -1,13 +1,13 @@
 import React from 'react'
-import { HeaderMenu } from '../types/header/HeaderMenu'
-import { HeaderLogo } from '../types/header/HeaderLogo';
+import { HeaderMenuType } from '../types/header/HeaderMenuType'
+import { HeaderLogoType } from '../types/header/HeaderLogoType';
 
 import '../styles/header.css'
 
 /** プロパティの型定義 */
 type HeaderProps = {
-  menu: HeaderMenu[];
-  logo: HeaderLogo;
+  menu: HeaderMenuType[];
+  logo: HeaderLogoType;
 }
 
 export const Header: React.FC<HeaderProps> = ({menu, logo}) => {

@@ -1,4 +1,4 @@
-export type TextData = {
+export type TextDataType = {
   title: {
     name: string;
   };
