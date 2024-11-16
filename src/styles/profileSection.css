@@ -1,0 +1,21 @@
+/* -------------------------------------------
+  プロフィール
+  -------------------------------------------*/
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .profileImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .profileInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }

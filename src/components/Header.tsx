@@ -1,10 +1,8 @@
 import React from 'react'
-import { HeaderMenu } from '../types/header/headerMenu'
-
+import { HeaderMenu } from '../types/header/HeaderMenu'
+import { HeaderLogo } from '../types/header/HeaderLogo';
 
 import '../styles/header.css'
-import { HeaderLogo } from '../types/header/headerLogo';
-
 
 /** プロパティの型定義 */
 type HeaderProps = {
