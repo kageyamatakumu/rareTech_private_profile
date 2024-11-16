@@ -1,4 +1,4 @@
-import { HeaderMenu } from "../../types/header/headerMenu";
+import { HeaderMenu } from "../../types/header/HeaderMenu";
 
 /** ヘッダーメニュー項目データ */
 export const headerMenu: HeaderMenu[] = [

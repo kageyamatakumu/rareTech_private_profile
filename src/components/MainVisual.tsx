@@ -1,5 +1,5 @@
 import React from 'react'
-import { MainImage } from '../types/mainImage/mainImage'
+import { MainImage } from '../types/mainImage/MainImage'
 
 import '../styles/mainVisual.css'
 
@@ -10,6 +10,6 @@ type MainImageProps = {
 
 export const MainVisual: React.FC<MainImageProps> = ({mainImage}) => {
   return (
-    <img src={`/assets/${mainImage.name}`} alt={mainImage.alt} className="mainVisual" />
+    <img src={`/assets/${mainImage.image}`} alt={mainImage.alt} className="mainVisual" />
   )
 }

@@ -1,4 +1,4 @@
-import { HeaderLogo } from "../../types/header/headerLogo";
+import { HeaderLogo } from "../../types/header/HeaderLogo";
 
 /** ヘッダーのロゴ */
 export const headerLogo: HeaderLogo = {

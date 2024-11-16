@@ -1,4 +1,4 @@
 export type MainImage = {
-  name: string;
+  image: string;
   alt: string;
 }

@@ -1,7 +1,7 @@
-import { MainImage } from "../../types/mainImage/mainImage";
+import { MainImage } from "../../types/mainImage/MainImage";
 
 /** メインビジュアル */
 export const mainImage: MainImage = {
-  name: 'main_visual.jpg',
+  image: 'main_visual.jpg',
   alt: 'メインビジュアル',
 }
