@@ -12,8 +12,8 @@ export const textData: TextDataType = {
     article: {
       title: "Articles"
     },
-    footer: {
-      copyright: "&copy; 2024 Profile"
-    }
+  },
+  footer: {
+    copyright: "&copy; 2024 Profile"
   }
 }
