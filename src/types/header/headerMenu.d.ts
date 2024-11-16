@@ -3,3 +3,4 @@ export type HeaderMenu = {
   name: string;
   links: string;
 }
+

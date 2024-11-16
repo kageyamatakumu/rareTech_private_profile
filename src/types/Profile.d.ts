@@ -3,5 +3,5 @@ export type Profile = {
   name: string;
   birthPlace: string;
   hobby: string;
-  skils: string[];
+  skills: string[];
 }
