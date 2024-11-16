@@ -1,4 +1,4 @@
-export type Profile = {
+export type ProfileType = {
   image: string,
   alt: string,
   name: string;

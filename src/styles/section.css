@@ -7,3 +7,7 @@
     align-items: center;
     gap: 40px;
   }
+
+  .sectionTitle {
+    border-bottom: solid 1px #383e45;
+  }

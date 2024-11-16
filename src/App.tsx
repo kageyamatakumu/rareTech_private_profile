@@ -1,15 +1,17 @@
 import React from 'react'
+import { Header } from './components/Header'
+import { MainVisual } from './components/MainVisual'
+import { ProfileSection } from './components/ProfileSection'
+import { ArticlesSection } from './components/ArticlesSection'
+
 import { headerMenu } from './data/header/headerMenu'
 import { headerLogo } from './data/header/headerLogo'
-
-import { Header } from './components/Header'
-
-import '../src/styles/app.css'
-import { MainVisual } from './components/MainVisual'
 import { mainImage } from './data/mainImage/mainImage'
-import { ProfileSection } from './components/ProfileSection'
 import { profile } from './data/profile'
 import { textData } from './data/textData'
+import { articles } from './data/articles'
+
+import '../src/styles/app.css'
 
 export const App: React.FC = () => {
   return (
@@ -18,6 +20,7 @@ export const App: React.FC = () => {
       <main className='mainContent'>
         <MainVisual mainImage={mainImage}/>
         <ProfileSection title={textData.sections.profile.title} profile={profile}/>
+        <ArticlesSection title={textData.sections.article.title} articles={articles} />
       </main>
     </div>
   )

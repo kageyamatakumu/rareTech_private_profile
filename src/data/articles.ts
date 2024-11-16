@@ -1,7 +1,7 @@
-import { Articles } from "../types/Articles";
+import { ArticlesType } from "../types/articles/ArticlesType";
 
 // 記事一覧データ
-export const articles: Articles[] = [{
+export const articles: ArticlesType[] = [{
   id: 1,
   image: "article.jpg",
   alt: "記事サムネイル",
