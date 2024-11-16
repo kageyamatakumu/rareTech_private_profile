@@ -1,0 +1,21 @@
+/*-------------------------------------------
+  ヘッダー
+  -------------------------------------------*/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+}
+
+.headerLogo {
+  height: 24px;
+}
+
+.headerUl {
+  display: flex;
+  gap: 24px;
+}
+
