@@ -1,9 +1,9 @@
 import React from "react"
-import { ArticlesType } from "../types/articles/ArticlesType"
-import { TextDataType } from "../types/TextDataType"
+import { ArticlesType } from "../../types/articles/ArticlesType"
+import { TextDataType } from "../../types/TextDataType"
 
-import '../styles/section.css'
-import '../styles/articlesSection.css'
+import '../../styles/section.css'
+import '../../styles/articlesSection.css'
 
 /** プロパティの型定義 */
 type ArticlesProps = {

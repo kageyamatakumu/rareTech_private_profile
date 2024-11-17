@@ -1,7 +1,7 @@
 import React from 'react'
-import { TextDataType } from '../types/TextDataType'
+import { TextDataType } from '../../types/TextDataType'
 
-import '../styles/footer.css'
+import '../../styles/footer.css'
 
 /** プロパティの型定義 */
 type FooterProps = {

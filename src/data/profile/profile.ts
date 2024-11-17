@@ -1,4 +1,4 @@
-import { ProfileType } from "../types/Profile/ProfileType";
+import { ProfileType } from "../../types/Profile/ProfileType";
 
 /** 自己紹介データ */
 export const profile: ProfileType = {
