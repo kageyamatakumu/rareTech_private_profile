@@ -1,7 +1,7 @@
 import React from 'react'
-import { MainImageType } from '../types/mainImage/MainImageType'
+import { MainImageType } from '../../types/mainImage/MainImageType'
 
-import '../styles/mainVisual.css'
+import '../../styles/mainVisual.css'
 
 /** プロパティの型定義 */
 type MainImageProps = {

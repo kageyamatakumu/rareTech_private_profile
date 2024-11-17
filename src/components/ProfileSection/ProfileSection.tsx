@@ -1,9 +1,9 @@
 import React from "react"
-import { ProfileType } from "../types/Profile/ProfileType"
-import { TextDataType } from "../types/TextDataType"
+import { ProfileType } from "../../types/Profile/ProfileType"
+import { TextDataType } from "../../types/TextDataType"
 
-import '../styles/section.css'
-import '../styles/profileSection.css'
+import '../../styles/section.css'
+import '../../styles/profileSection.css'
 
 /** プロパティの型定義 */
 type ProfileProps = {

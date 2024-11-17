@@ -1,4 +1,4 @@
-import { ArticlesType } from "../types/articles/ArticlesType";
+import { ArticlesType } from "../../types/articles/ArticlesType";
 
 // 記事一覧データ
 export const articles: ArticlesType[] = [{

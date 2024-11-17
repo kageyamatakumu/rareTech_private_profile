@@ -1,4 +1,4 @@
-import { TextDataType } from "../types/TextDataType";
+import { TextDataType } from "../../types/TextDataType";
 
 // 静的文言データ
 export const textData: TextDataType = {
