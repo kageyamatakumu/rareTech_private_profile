@@ -13,7 +13,7 @@ type ProfileProps = {
 
 export const ProfileSection: React.FC<ProfileProps> = ({title, profile}) => {
   return (
-    <section className="section">
+    <section id="profile" className="section">
       <h2 className="sectionTitle">{title}</h2>
       <div className="profile">
         <img src={`/assets/${profile.image}`} alt={profile.alt} className="profileImage"/>

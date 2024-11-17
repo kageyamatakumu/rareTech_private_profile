@@ -13,7 +13,7 @@ type ArticlesProps = {
 
 export const ArticlesSection: React.FC<ArticlesProps> = ({title, articles}) => {
   return (
-    <section className="section">
+    <section id="articles" className="section">
       <h2 className="sectionTitle">{title}</h2>
       <div className="articles">
         {articles.map((item) => (
